@@ -1,0 +1,56 @@
+# Credentials & secrets
+credentials.json
+secrets.json
+bot_keys.json
+.env
+.env.*
+!.env.example
+.envrc
+*.key
+*.pem
+*.p8
+*.p12
+
+# Database & state
+*.db
+*.sqlite
+*.jsonl
+
+# Logs
+logs/
+*.log
+
+# Python
+__pycache__/
+*.pyc
+venv/
+.venv/
+*.egg-info/
+
+# Runtime
+bots/evolved/*.json
+setup_log.md
+
+# OS
+.DS_Store
+
+# PolyTutor defaults
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+node_modules/
+.venv/
+venv/
+__pycache__/
+*.pyc
+dist/
+build/
+target/
+logs/
+*.log
+.DS_Store
+*.sqlite
+*.db
+config.toml
